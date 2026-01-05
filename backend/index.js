@@ -19,6 +19,7 @@ const cors = require('cors');
 const allowedOrigins = [
     "http://localhost:3000",
     "https://inspiring-expression-production.up.railway.app",
+    "https://loyalty-program-phze.vercel.app",
 ];
 
 app.use(cors({
